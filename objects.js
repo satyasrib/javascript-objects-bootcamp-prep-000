@@ -5,6 +5,5 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 function removeFromPlaylist(playlist, artistName) {
-var Playlist = { artistName: "songTitle" }
-delete Playlist.artistName
+delete playlist.artistName
 }
